@@ -1,0 +1,40 @@
+body {
+    padding: 120px;
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    color: #a363aa;
+    position: relative;
+    overflow: hidden;
+    background: url("flyyy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(95, 75, 139, 0.1);
+    background-color: #fce5ee69;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.container:hover {
+    background-color: #e0d2e4; /* Adjusted hover background color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control option{
+    font-size: 18px;
+}
+
+/* Input styles for better aesthetics */
+input,
+select {
+    width: 60%; /* Full width for inputs and selects */
+    margin-bottom: 20px;
+}
